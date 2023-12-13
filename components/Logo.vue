@@ -19,7 +19,7 @@
 <style lang="postcss" scoped>
 #logo {
   stroke-dasharray: 3693;
-  animation: fillLogo 5s ease-in-out forwards infinite alternate;
+  animation: fillLogo 3s ease-in-out forwards infinite alternate;
 }
 
 @keyframes fillLogo {

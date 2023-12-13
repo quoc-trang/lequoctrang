@@ -1,3 +1,17 @@
+html {
+  scroll-snap-type: y mandatory;
+}
+
 body {
-  @apply font-mono;
+  font-family: Montserrat;
+  line-height: 27px;
+}
+
+.shadow-effect {
+  box-shadow: 0 0 100px 0 #00dc82;
+}
+
+section {
+  scroll-snap-align: start;
+  display: flex;
 }
